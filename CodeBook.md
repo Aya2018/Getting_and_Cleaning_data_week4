@@ -4,29 +4,28 @@
 Tidy data contains 180 rows and 68 columns. Each row has averaged variables for each subject and each activity.
 
 ## Only all the variables estimated from mean and standard deviation in the tidy set were kept.
-mean(): Mean value
+mean(): Mean value <br>
 std(): Standard deviationThe data were averaged based on subject and activity group.
 ## Subject column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+WALKING <br>
+WALKING_UPSTAIRS <br>
+WALKING_DOWNSTAIRS <br>
+SITTING <br>
+STANDING <br>
+LAYING <br>
 ## The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 variables and activity labels).
-"activitylabel"
-"subject"
+"activitylabel" 
+"subject" 
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
-"tBodyAcc-std()-X"
-"tBodyAcc-std()-Y"
-"tBodyAcc-std()-Z"
-"tGravityAcc-mean()-X"
-"tGravityAcc-mean()-Y"
-"tGravityAcc-mean()-Z"
-"tGravityAcc-std()-X"
-"tGravityAcc-std()-Y"
+"tBodyAcc-std()-X" 
+"tBodyAcc-std()-Y" 
+"tBodyAcc-std()-Z" 
+"tGravityAcc-mean()-X" 
+"tGravityAcc-mean()-Y" 
+"tGravityAcc-mean()-Z" 
+"tGravityAcc-std()-X"   
 "tGravityAcc-std()-Z"
 "tBodyAccJerk-mean()-X"
 "tBodyAccJerk-mean()-Y"
@@ -81,6 +80,6 @@ LAYING
 "fBodyBodyGyroMag-mean()"
 "fBodyBodyGyroMag-std()"
 "fBodyBodyGyroJerkMag-mean()"
-"fBodyBodyGyroJerkMag-std()"
-variable units
+"fBodyBodyGyroJerkMag-std()" 
+## variable units
 Activity variable is factor type. Subject variable is integer type. All the other variables are numeric type.
