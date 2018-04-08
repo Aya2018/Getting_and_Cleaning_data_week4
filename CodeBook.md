@@ -5,7 +5,8 @@ Tidy data contains 180 rows and 68 columns. Each row has averaged variables for 
 
 ## Only all the variables estimated from mean and standard deviation in the tidy set were kept.
 mean(): Mean value <br>
-std(): Standard deviationThe data were averaged based on subject and activity group.
+std(): Standard deviation <br>
+The data were averaged based on subject and activity group.
 ## Subject column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.
 WALKING <br>
 WALKING_UPSTAIRS <br>
